@@ -1,0 +1,260 @@
+/* styles.css */
+  body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #222;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 260px;
+            background: #263238;
+            color: #fff;
+            padding: 24px 0;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            font-size: 1.3em;
+            letter-spacing: 1px;
+        }
+        .muscle-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .muscle-list li {
+            padding: 14px 32px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+            border-left: 4px solid transparent;
+        }
+        .muscle-list li:hover, .muscle-list li.active {
+            background: #37474f;
+            color: #ffca28;
+            border-left: 4px solid #ffca28;
+        }
+        .main-content {
+            flex: 1;
+            padding: 32px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .muscle-image {
+            width: 320px;
+            max-width: 100%;
+            margin-bottom: 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .section {
+            width: 100%;
+            max-width: 600px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            padding: 24px 28px;
+            margin-bottom: 18px;
+        }
+        .section h3 {
+            margin-top: 0;
+            font-size: 1.1em;
+            color: #37474f;
+        }
+        .audio-pronunciation {
+            margin-bottom: 12px;
+        }
+        .translation {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #0277bd;
+        }
+        .memory-aid {
+            margin-bottom: 10px;
+        }
+        .collapsible {
+            background: #eceff1;
+            color: #222;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            outline: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1em;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .collapsible:hover {
+            background: #cfd8dc;
+        }
+        .content {
+            padding: 0 10px 10px 10px;
+            display: none;
+            overflow: hidden;
+            background: #f5f5f5;
+            border-radius: 0 0 6px 6px;
+            margin-bottom: 10px;
+        }
+        .exercise-list {
+            margin: 0 0 10px 0;
+            padding-left: 18px;
+        }
+        .exercise-gif {
+            width: 220px;
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+        /* Responsive */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                box-shadow: none;
+                padding: 12px 0;
+            }
+            .main-content {
+                padding: 20px 10px;
+            }
+            .section {
+                padding: 16px 10px;
+            }
+        }body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 260px;
+    background: #263238;
+    color: #fff;
+    padding: 24px 0;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+.muscle-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.muscle-list li {
+    padding: 14px 32px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    border-left: 4px solid transparent;
+}
+.muscle-list li:hover, .muscle-list li.active {
+    background: #37474f;
+    color: #ffca28;
+    border-left: 4px solid #ffca28;
+}
+.main-content {
+    flex: 1;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.muscle-image {
+    width: 320px;
+    max-width: 100%;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.section {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 24px 28px;
+    margin-bottom: 18px;
+}
+.section h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: #37474f;
+}
+.audio-pronunciation {
+    margin-bottom: 12px;
+}
+.translation {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #0277bd;
+}
+.memory-aid {
+    margin-bottom: 10px;
+}
+.collapsible {
+    background: #eceff1;
+    color: #222;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+.collapsible:hover {
+    background: #cfd8dc;
+}
+.content {
+    padding: 0 10px 10px 10px;
+    display: none;
+    overflow: hidden;
+    background: #f5f5f5;
+    border-radius: 0 0 6px 6px;
+    margin-bottom: 10px;
+}
+.exercise-list {
+    margin: 0 0 10px 0;
+    padding-left: 18px;
+}
+.exercise-gif {
+    width: 220px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        box-shadow: none;
+        padding: 12px 0;
+    }
+    .main-content {
+        padding: 20px 10px;
+    }
+    .section {
+        padding: 16px 10px;
+    }
+}
