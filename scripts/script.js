@@ -134,7 +134,7 @@
             },
             triceps_brachii: {
                 name: "Triceps Brachii",
-                image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Triceps_brachii.png",
+                image: "https://www.kenhub.com/thumbor/HFbTJc2AayYsrOSJMmDE5axXPvs=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/library/13946/aHliOOl62koJhumoZcUysg_vsBTp2iDc2_M._triceps_brachii_1.png",
                 imageAlt: "Triceps Brachii muscle anatomy",
                 audio: "https://dict.youdao.com/dictvoice?audio=triceps%20brachii&type=2", // Pronunciation audio
                 translation: "肱三头肌",
@@ -297,4 +297,5 @@
                 }
             };
         });
+
    
