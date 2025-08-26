@@ -11,6 +11,7 @@
                 memoryAid: "Imagine hugging a tree – your chest contracts.",
                 origin: "Clavicle, sternum, and cartilage of ribs 1-6.",
                 insertion: "Lateral lip of the bicipital groove of humerus.",
+                joint: "Shoulder",
                 movement: "Adducts and medially rotates the arm.",
                 exercises: [
                     { name: "Bench Press", gif: "https://media.giphy.com/media/z1Suqc2f0GCPReDgUB/giphy.webp", gifAlt: "Bench press exercise GIF" },
@@ -27,6 +28,7 @@
                 memoryAid: "Think of a shoulder pad – covers the shoulder.",
                 origin: "Clavicle, acromion, and spine of scapula.",
                 insertion: "Deltoid tuberosity of humerus.",
+                joint: "Shoulder",
                 movement: "Abducts, flexes, and extends the arm.",
                 exercises: [
                     { name: "Shoulder Press", gif: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2o3c3U5aWN0M2ljYTU2cTA0NTlyYmQ4amZ5a3BuMjhrcDNvazJqMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gIxeFoOB3xBEeviCn8/200.webp", gifAlt: "Shoulder press exercise GIF" },
@@ -44,6 +46,7 @@
                 memoryAid: "Wings on your back – helps you pull.",
                 origin: "Spinous processes of T7-L5, iliac crest, lower ribs.",
                 insertion: "Intertubercular groove of humerus.",
+                joint: "Shoulder",
                 movement: "Extends, adducts, and medially rotates the arm.",
                 exercises: [
                     { name: "Pull-ups", gif: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDU5MzV1NmQ3MDVsdDJxYXU0b3oycnA0Nzd4dHUyYjByaDk5cHA1NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EzlBTmRv3uLcRMsLvU/200.webp", gifAlt: "Pull-up exercise GIF" },
@@ -62,6 +65,7 @@
                 memoryAid: "Diamond-shaped muscle on upper back.",
                 origin: "Occipital bone, ligamentum nuchae, spinous processes C7-T12.",
                 insertion: "Clavicle, acromion, and spine of scapula.",
+                joint: "Scapula",
                 movement: "Elevates, retracts, and rotates scapula.",
                 exercises: [
                     { name: "Shrugs", gif: "https://cdn.jefit.com/assets/img/exercises/gifs/42.gif", gifAlt: "Shrug exercise GIF" },
@@ -75,6 +79,7 @@
                 imageAlt: "Rhomboid muscles anatomy",
                 audio: "https://dict.youdao.com/dictvoice?audio=rhomboids&type=2", // Pronunciation audio
                 translation: "菱形肌",
+                joint: "Scapula",
                 memoryAid: "Pulling shoulder blades together.",
                 origin: "Spinous processes of C7-T5.",
                 insertion: "Medial border of scapula.",
@@ -95,6 +100,7 @@
                 memoryAid: "Lifts the shoulder blade.",
                 origin: "Transverse processes of C1-C4.",
                 insertion: "Superior part of medial border of scapula.",
+                joint: "Scapula",
                 movement: "Elevates scapula.",
                 exercises: [
                     { name: "Shrugs", gif: "https://cdn.jefit.com/assets/img/exercises/gifs/42.gif", gifAlt: "Shrug exercise GIF" },
@@ -110,6 +116,7 @@
                 memoryAid: "Small chest muscle under major.",
                 origin: "Ribs 3-5.",
                 insertion: "Coracoid process of scapula.",
+                joint: "Scapula",
                 movement: "Stabilizes and depresses scapula.",
                 exercises: [
                     { name: "Push-ups", gif: "https://i.gifer.com/origin/53/5316230e06f72b22c318f49aee7d6051_w200.webp", gifAlt: "Push-up exercise GIF" },
@@ -125,6 +132,7 @@
                 memoryAid: "Saw-toothed muscle on side of chest.",
                 origin: "Ribs 1-8.",
                 insertion: "Anterior surface of medial border of scapula.",
+                joint: "Scapula",
                 movement: "Protracts scapula.",
                 exercises: [
                     { name: "Push-ups", gif: "https://i.gifer.com/origin/53/5316230e06f72b22c318f49aee7d6051_w200.webp", gifAlt: "Push-up exercise GIF" },
@@ -141,6 +149,7 @@
                 memoryAid: "Three-headed muscle at back of arm.",
                 origin: "Infraglenoid tubercle of scapula, posterior humerus.",
                 insertion: "Olecranon process of ulna.",
+                joint: "Elbow",
                 movement: "Extends forearm.",
                 exercises: [
                     { name: "Triceps Pushdown", gif: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmpiMXVibDJ0eWhvbTY2c2M4OTVxaDNzaXE2ZG85ZGE3d3ltNHd5aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/orZ35jCdlD8VkSb30U/200.gif", gifAlt: "Triceps Pushdown exercise" },
@@ -157,6 +166,7 @@
                 memoryAid: "Main elbow flexor under biceps.",
                 origin: "Distal half of anterior humerus.",
                 insertion: "Coronoid process and tuberosity of ulna.",
+                joint: "Elbow",
                 movement: "Flexes forearm.",
                 exercises: [
                     { name: "Hammer Curl", gif: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJncXJxa281cGk4dnAxOXhmNnc5ZWc5OTJhZ3ljZGljNzhwNTBuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EWfDfF3QuN8qonE6Gu/giphy.webp", gifAlt: "Hammer Curl exercise" },
@@ -172,6 +182,7 @@
                 memoryAid: "Classic 'biceps' – flexes elbow.",
                 origin: "Supraglenoid tubercle and coracoid process of scapula.",
                 insertion: "Radial tuberosity.",
+                joint: "Elbow",
                 movement: "Flexes and supinates forearm.",
                 exercises: [
                     { name: "Bicep Curl", gif: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNoMzlyc2JqbWFtYWFza3NmbGFpY3o1N3FvcDN5d21vZ2o0ZGZ2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lh5tfasv0ReOFLcSTB/200.webp", gifAlt: "Bicep Curl exercise" },
@@ -187,6 +198,7 @@
                 memoryAid: "Forearm muscle for elbow flexion.",
                 origin: "Lateral supracondylar ridge of humerus.",
                 insertion: "Styloid process of radius.",
+                joint: "Elbow",
                 movement: "Flexes forearm.",
                 exercises: [
                     { name: "Hammer Curl", gif: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJncXJxa281cGk4dnAxOXhmNnc5ZWc5OTJhZ3ljZGljNzhwNTBuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EWfDfF3QuN8qonE6Gu/giphy.webphttps://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJncXJxa281cGk4dnAxOXhmNnc5ZWc5OTJhZ3ljZGljNzhwNTBuMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EWfDfF3QuN8qonE6Gu/giphy.webp", gifAlt: "Hammer Curl exercise" },
@@ -265,6 +277,8 @@
                     <div class="content">${m.origin}</div>
                     <button class="collapsible">Insertion</button>
                     <div class="content">${m.insertion}</div>
+                    <button class="collapsible">Joint</button>
+                    <div class="content">${m.joint}</div>
                     <button class="collapsible">Movement</button>
                     <div class="content">${m.movement}</div>
                 </div>
@@ -297,5 +311,4 @@
                 }
             };
         });
-
    
