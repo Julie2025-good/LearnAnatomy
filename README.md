@@ -1,2 +1,2 @@
 # LearnAnatomy
-Help to learn upper body muscles.
+Help to learn human body muscles.
