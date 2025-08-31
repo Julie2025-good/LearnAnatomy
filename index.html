@@ -1,39 +1,70 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Upper Body Muscles Anatomy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styes.css">
+<meta charset="utf-8"/>
+<title>Human Body Muscles Anatomy</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="styles/styes.css" rel="stylesheet"/>
 </head>
-<body>
-    <div class="container">
-        <nav class="sidebar" aria-label="Muscle list">
-            <h2>Upper Body Muscles</h2>
-            <ul class="muscle-list">
-                <li data-muscle="pectoralis_major">Pectoralis Major</li>
-                <li data-muscle="deltoid">Deltoid</li>
-                <li data-muscle="latissimus_dorsi">Latissimus Dorsi</li>
-                <li data-muscle="trapezius">Trapezius</li>
-                <li data-muscle="rhomboids">Rhomboids</li>
-                <li data-muscle="levator_scapulae">Levator Scapulae</li>
-                <li data-muscle="pectoralis_minor">Pectoralis Minor</li>
-                <li data-muscle="serratus_anterior">Serratus Anterior</li>
-                <li data-muscle="triceps_brachii">Triceps Brachii</li>
-                <li data-muscle="brachialis">Brachialis</li>
-                <li data-muscle="biceps_brachii">Biceps Brachii</li>
-                <li data-muscle="brachioradialis">Brachioradialis</li>
-            </ul>
-        </nav>
-        <main class="main-content" id="main-content" aria-live="polite">
-            <!-- Dynamic muscle content will be loaded here -->
-            <div id="placeholder" class="section" style="text-align:center;">
-                <h2>Welcome!</h2>
-                <p>Select a muscle from the left to view details.</p>
-            </div>
-        </main>
-    </div>
-    <script src="scripts/script.js"></script>
-</body>
+<body><div style="display: flex; flex-direction: row; gap: 20px;"><div style="width: 25%; overflow-y: auto; max-height: 90vh; border-right: 1px solid #ccc; padding-right: 10px;"><ul class="muscle-list">
+<li><strong>Shoulder</strong></li>
+<li data-muscle="pectoralis_major">Pectoralis Major</li>
+<li data-muscle="deltoid">Deltoid</li>
+<li data-muscle="latissimus_dorsi">Latissimus Dorsi</li>
+<li><strong>Scapula</strong></li>
+<li data-muscle="trapezius">Trapezius</li>
+<li data-muscle="rhomboids">Rhomboids</li>
+<li data-muscle="levator_scapulae">Levator Scapulae</li>
+<li data-muscle="pectoralis_minor">Pectoralis Minor</li>
+<li data-muscle="serratus_anterior">Serratus Anterior</li>
+<li><strong>Elbow</strong></li>
+<li data-muscle="triceps_brachii">Triceps Brachii</li>
+<li data-muscle="brachialis">Brachialis</li>
+<li data-muscle="biceps_brachii">Biceps Brachii</li>
+<li data-muscle="brachioradialis">Brachioradialis</li>
+<li><strong>Hip</strong></li>
+<li data-muscle="iliacus_hf">Iliacus (HF)</li>
+<li data-muscle="psoas_major_hf">Psoas Major (HF)</li>
+<li data-muscle="sartorius_ba_hf">Sartorius (BA) (HF)</li>
+<li data-muscle="rectus_femoris">Rectus Femoris (BA) (HF)</li>
+<li data-muscle="gluteus_maximus_he">Gluteus Maximus (HE)</li>
+<li data-muscle="gluteus_medius_he">Gluteus Medius (HE)</li>
+<li data-muscle="gluteus_minimus_he">Gluteus Minimus (HE)</li>
+<li data-muscle="piriformis">Piriformis</li>
+<li data-muscle="biceps_femoris_h1">Biceps Femoris (BA)</li>
+<li data-muscle="tensor_fascia_latae_ba_abd">Tensor Fascia Latae (BA) (ABD)</li>
+<li data-muscle="adductor_group_5">Adductor Group (5)</li>
+<li><strong>Knee</strong></li>
+<li data-muscle="quadriceps_4">Quadriceps (4)</li>
+<li data-muscle="rectus_femoris">Rectus Femoris (Q1)</li>
+<li data-muscle="vastus_medialis_q2">Vastus Medialis (Q2)</li>
+<li data-muscle="vastus_lateralis_q3">Vastus Lateralis (Q3)</li>
+<li data-muscle="vastus_intermedius_q4">Vastus Intermedius (Q4)</li>
+<li data-muscle="hamstrings">Hamstrings</li>
+<li data-muscle="biceps_femoris_h1">Biceps Femoris (H1)</li>
+<li data-muscle="semitendinosus_h2">Semitendinosus (H2)</li>
+<li data-muscle="semimembranosus_h3">Semimembranosus (H3)</li>
+<li><strong>Ankle</strong></li>
+<li data-muscle="gastrocnemius_c1">Gastrocnemius (C1)</li>
+<li data-muscle="soleus_c2">Soleus (C2)</li>
+<li data-muscle="tibialis_anterior">Tibialis Anterior</li>
+<li><strong>Spine Stabilization</strong></li>
+<li data-muscle="rectus_abdominis">Rectus Abdominis</li>
+<li data-muscle="transverse_abdominis">Transverse Abdominis</li>
+<li data-muscle="internal_oblique">Internal Oblique</li>
+<li data-muscle="external_oblique">External Oblique</li>
+<li data-muscle="erector_spinae_group">Erector Spinae Group</li>
+<li data-muscle="multifidis">Multifidis</li>
+<li data-muscle="quadratus_lumborum">Quadratus Lumborum</li>
+<li data-muscle="diaphragm">Diaphragm</li>
+<li><strong>Other Important Muscles</strong></li>
+<li data-muscle="sternocleidomastoid">Sternocleidomastoid</li>
+<li data-muscle="rotator_cuff_muscles_4">Rotator Cuff Muscles (4)</li>
+<li data-muscle="supraspinatus_r1">Supraspinatus (R1)</li>
+<li data-muscle="infraspinatus_r2">Infraspinatus (R2)</li>
+<li data-muscle="teres_minor_r3">Teres Minor (R3)</li>
+<li data-muscle="subscapularis_r4">Subscapularis (R4)</li>
+</ul></div><div style="width: 75%; padding-left: 10px;"><div id="main-content"></div></div></div><script src="scripts/script.js"></script></body>
 </html>
