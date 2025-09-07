@@ -2,7 +2,7 @@
    
         // replace with actual data
         function getAudioUrl(muscleName) {
-    return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(muscleName)}&type=2`;
+  return `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(muscleName.toLowerCase())}&type=2`;
 }
 
 // Replace all "audio" fields below "iliacus_hf" to use common name encoding
@@ -103,13 +103,13 @@ const muscles = {
       }
     ]
   },
-  rhomboids: {
-    name: "Rhomboids",
+  rhomboid: {
+    name: "Rhomboid",
     image: "https://www.kenhub.com/thumbor/YyIewYwtPWRCVYv2Hpcw1kOvbIs=/fit-in/680x680/filters:fill(FFFFFF,true):watermark(/logos/logo_url.png,-10,-10,0):format(jpeg)/images/learnable/musculus-rhomboideus-major/AfbeHMvYMNnRLp9DgOAJpw_Rhomboid_major.png",
     imageAlt: "Rhomboids muscle anatomy",
-    audio: getAudioUrl("Rhomboids"),
+    audio: getAudioUrl("Rhomboid"),
     translation: "菱形肌",
-    memoryAid: "Connects spine to scapula, helps pinch shoulder blades together. To remember the name: 'Rhomboids' are named for their rhombus (diamond) shape.",
+    memoryAid: "Connects spine to scapula, helps pinch shoulder blades together. To remember the name: 'Rhomboid' are named for their rhombus (diamond) shape.",
     origin: "Spinous processes of C7-T5.",
     insertion: "Medial border of scapula.",
     joint: "Scapula",
@@ -425,7 +425,7 @@ const muscles = {
     exercises: [
       {
         name: "Leg Extension",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "hhttps://archive.org/download/leg-extension/LEG%20EXTENSION.gif",
         gifAlt: "Leg extension exercise"
       },
       {
@@ -449,12 +449,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -473,12 +473,12 @@ const muscles = {
     exercises: [
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       },
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       }
     ]
@@ -497,12 +497,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -521,12 +521,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -627,11 +627,11 @@ const muscles = {
       }
     ]
   },
-  transverse_abdominis: {
-    name: "Transverse Abdominis",
+  transversus_abdominis: {
+    name: "Transversus Abdominis",
     image: "https://www.kenhub.com/thumbor/7-OuTVyKtTXUGrbZ5UUwP8x582Y=/fit-in/680x680/filters:fill(FFFFFF,true):watermark(/logos/logo_url.png,-10,-10,0):format(jpeg)/images/learnable/musculus-transversus-abdominis/bLpxdDFgr3tY6bdeYFP5w_Musculus_transversus_abdominis_01.png",
-    imageAlt: "Transverse Abdominis muscle anatomy",
-    audio: getAudioUrl("Transverse Abdominis"),
+    imageAlt: "Transversus Abdominis muscle anatomy",
+    audio: getAudioUrl("Transversus Abdominis"),
     translation: "腹横肌",
     memoryAid: "Deepest abdominal muscle, wraps around like a corset. To remember the name: 'Transverse' means running across, 'abdominis' refers to the abdomen.",
     origin: "Iliac crest, inguinal ligament, thoracolumbar fascia, and costal cartilages of ribs 7-12.",
@@ -699,11 +699,11 @@ const muscles = {
       }
     ]
   },
-  erector_spinae_group: {
-    name: "Erector Spinae Group",
-    image: "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/hamstring-muscles",
-    imageAlt: "Erector Spinae Group muscle anatomy",
-    audio: getAudioUrl("Erector Spinae Group"),
+  erector_spinae: {
+    name: "Erector Spinae",
+    image: "https://www.kenhub.com/thumbor/lmc24eP3CnMnwwXTjG3EILNCiWQ=/fit-in/413x413/filters:fill(FFFFFF,true):watermark(/images/watermark_only_413.png,0,0,0):watermark(/logos/logo_url_sm.png,-10,-10,0):format(jpeg)/images/learnable/erector-spinae-muscle-1/gNmoym2pM92JSOmZOMU13w_Erector_spinae_muscle.png",
+    imageAlt: "Erector Spinae muscle anatomy",
+    audio: getAudioUrl("Erector Spinae"),
     translation: "竖脊肌群",
     memoryAid: "Long muscles along the spine, help you stand tall. To remember the name: 'Erector' means to straighten, 'spinae' refers to the spine.",
     origin: "Broad tendon from sacrum, iliac crest, lumbar and thoracic vertebrae.",
@@ -761,7 +761,7 @@ const muscles = {
     exercises: [
       {
         name: "Empty Can Raise",
-        gif: "https://media.giphy.com/media/3o6Zt8zQwz7bT1QpAA/giphy.gif",
+        gif: "https://iris.hattiesburgclinic.com/patadv/exkit/Tubing%20Exercises/Images/0210000131sh25m.png",
         gifAlt: "Empty can raise exercise"
       },
       {
@@ -790,7 +790,7 @@ const muscles = {
       },
       {
         name: "Band External Rotation",
-        gif: "https://media.giphy.com/media/3o6Zt8zQwz7bT1QpAA/giphy.gif",
+        gif: "https://sportydoctor.com/wp-content/uploads/Banded-Shoulder-External-Rotation.gif",
         gifAlt: "Band external rotation exercise"
       }
     ]
@@ -809,7 +809,7 @@ const muscles = {
     exercises: [
       {
         name: "Band External Rotation",
-        gif: "https://media.giphy.com/media/3o6Zt8zQwz7bT1QpAA/giphy.gif",
+        gif: "https://sportydoctor.com/wp-content/uploads/Banded-Shoulder-External-Rotation.gif",
         gifAlt: "Band external rotation exercise"
       }
     ]
@@ -900,7 +900,7 @@ const muscles = {
     exercises: [
       {
         name: "Side-Lying Hip Abduction",
-        gif: "https://post.medicalnewstoday.com/wp-content/uploads/2022/01/400x400_How_to_Get_Rid_of_Hip_Dips_Lying_Down_Side_Leg_Raises.gif",
+        gif: "https://www.verywellfit.com/thmb/T9ah6G2Eaiph6n0HZQV5UiUGW4o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/104--Hip-AbductionGIF-0f7b74d948f849d78864da9605a3eaa8.gif",
         gifAlt: "Side-lying hip abduction exercise"
       },
       {
@@ -958,11 +958,11 @@ const muscles = {
       }
     ]
   },
-  adductor_group_5: {
-    name: "Adductor Group",
+  adductors: {
+    name: "Adductors",
     image: "https://www.kenhub.com/thumbor/LVoyCXrkVRWSESflnfZBRZztL-0=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/library/14012/Hip_adductors.png",
-    imageAlt: "Adductor Group muscle anatomy",
-    audio: getAudioUrl("Adductor Group"),
+    imageAlt: "Adductors muscle anatomy",
+    audio: getAudioUrl("Adductors"),
     translation: "收肌群",
     memoryAid: "Inner thigh muscles, pull legs together.",
     origin: "Pubis and ischium (varies by muscle: adductor longus, brevis, magnus, gracilis, pectineus).",
@@ -1020,7 +1020,7 @@ const muscles = {
     exercises: [
       {
         name: "Leg Extension",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://archive.org/download/leg-extension/LEG%20EXTENSION.gif",
         gifAlt: "Leg extension exercise"
       },
       {
@@ -1056,13 +1056,13 @@ const muscles = {
       }
     ]
   },
-  multifidis: {
-    name: "Multifidis",
+  multifidus: {
+    name: "Multifidus",
     image: "https://www.kenhub.com/thumbor/5CPEbaW_1Yek4Ghfu3EzdBHbiqY=/fit-in/680x680/filters:fill(FFFFFF,true):watermark(/logos/logo_url.png,-10,-10,0):format(jpeg)/images/learnable/musculi-multifidi/iL2N4WECG2EoDJ9nY2yJKA_Multifidus-posterior.png",
-    imageAlt: "Multifidis muscle anatomy",
-    audio: getAudioUrl("Multifidis"),
+    imageAlt: "Multifidus muscle anatomy",
+    audio: getAudioUrl("Multifidus"),
     translation: "多裂肌",
-    memoryAid: "Short deep back muscles, stabilize the spine. To remember the name: 'Multifidis' means many splits, referring to its segmented structure.",
+    memoryAid: "Short deep back muscles, stabilize the spine. To remember the name: 'Multifidus' means many splits, referring to its segmented structure.",
     origin: "Sacrum, iliac crest, transverse processes of lumbar, thoracic, and cervical vertebrae.",
     insertion: "Spinous processes of vertebrae (2-4 segments above origin).",
     joint: "Spine",
@@ -1210,7 +1210,7 @@ const muscles = {
     exercises: [
       {
         name: "Leg Extension",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://archive.org/download/leg-extension/LEG%20EXTENSION.gif",
         gifAlt: "Leg extension exercise"
       },
       {
@@ -1234,12 +1234,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -1258,12 +1258,12 @@ const muscles = {
     exercises: [
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       },
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       }
     ]
@@ -1282,12 +1282,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -1306,12 +1306,12 @@ const muscles = {
     exercises: [
       {
         name: "Romanian Deadlift",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/06/barbell-romanian-deadlift-movement.gif",
         gifAlt: "Romanian deadlift exercise"
       },
       {
         name: "Lying Leg Curl",
-        gif: "https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif",
+        gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/lying-leg-curl.gif",
         gifAlt: "Lying leg curl exercise"
       }
     ]
@@ -1474,7 +1474,7 @@ const muscles = {
     exercises: [
       {
         name: "Bicycle Crunch",
-        gif: "https://media.post.rvohealth.io/wp	content/uploads/2023/08/CheapMadeupLeafhopper-size_restricted.gif",
+        gif: "https://img.emedihealth.com/wp-content/uploads/2020/06/5-bicycle-crunch.gif",
         gifAlt: "Bicycle crunch exercise"
       },
       {
@@ -1512,7 +1512,7 @@ const muscles = {
     name: "Rotator Cuff Muscles (4)",
     image: "",
     imageAlt: "Rotator Cuff Muscles (4) muscle anatomy",
-    audio: getAudioUrl("Rotator Cuff Muscles"),
+    audio: getAudioUrl("Rotator Cuff"),
     translation: "肩袖肌群（4）",
     memoryAid: "Mnemonic missing. To remember the name: The rotator cuff is a group of four muscles that rotate and stabilize the shoulder joint.",
     origin: "Supraspinatus: supraspinous fossa; Infraspinatus: infraspinous fossa; Teres minor: lateral border of scapula; Subscapularis: subscapular fossa.",
@@ -1615,12 +1615,7 @@ const muscles = {
         name: "Internal Rotation with Band",
         gif: "https://sportydoctor.com/wp-content/uploads/Banded-Shoulder-Internal-Rotation.gif",
         gifAlt: "Internal rotation with band exercise"
-      },
-      {
-        name: "Standing Internal Rotation",
-        gif: "https://media.giphy.com/media/3o6Zt8zQwz7bT1QpAA/giphy.gif",
-        gifAlt: "Standing internal rotation exercise"
-      }
+      }      
     ]
   },
   piriformis: {
@@ -1642,7 +1637,7 @@ const muscles = {
       },
       {
         name: "Figure 4 Stretch",
-        gif: "https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif",
+        gif: "https://tse2.mm.bing.net/th/id/OIP.rvJj4wrG9Qp5GvLAzuhYOQAAAA?pid=Api&P=0&h=180",
         gifAlt: "Figure 4 stretch exercise"
       }
     ]
@@ -1685,7 +1680,7 @@ const muscles = {
     exercises: [
       {
         name: "Side-Lying Hip Abduction",
-        gif: "https://post.medicalnewstoday.com/wp-content/uploads/2022/01/400x400_How_to_Get_Rid_of_Hip_Dips_Lying_Down_Side_Leg_Raises.gif",
+        gif: "https://www.verywellfit.com/thmb/T9ah6G2Eaiph6n0HZQV5UiUGW4o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/104--Hip-AbductionGIF-0f7b74d948f849d78864da9605a3eaa8.gif",
         gifAlt: "Side-lying hip abduction exercise"
       },
       {
@@ -1805,7 +1800,7 @@ const muscles = {
     exercises: [
       {
         name: "Leg Extension",
-        gif: "https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif",
+        gif: "https://archive.org/download/leg-extension/LEG%20EXTENSION.gif",
         gifAlt: "Leg extension exercise"
       },
       {
