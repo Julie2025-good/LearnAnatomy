@@ -67,6 +67,16 @@ const exerciseLibrary = {
     gif: "https://liftmanual.com/wp-content/uploads/2023/04/rotating-neck-stretch.gif",
     gifAlt: "Neck stretch"
   },
+  NeckFlexionStretch: {
+    name: "Neck Flexion Stretch",
+    gif: "https://liftmanual.com/wp-content/uploads/2023/04/forward-flexion-neck-stretch.gif",
+    gifAlt: "Neck flexion stretch"
+  },
+  NeckIsometricStretch: {
+    name: "Neck Isometrics",
+    gif: "https://gymvisual.com/img/p/2/3/9/8/7/23987.gif",
+    gifAlt: "Neck isometric exercise"
+  },
   PushUpPlus: {
     name: "Push-up Plus",
     gif: "https://fitliferegime.com/wp-content/uploads/2023/09/Decline-Push-Up.gif",
@@ -214,7 +224,7 @@ const exerciseLibrary = {
   },
   BackExtension: {
     name: "Back Extension",
-    gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/back-extension.gif",
+    gif: "https://www.inspireusafoundation.org/wp-content/uploads/2022/04/weighted-hyperextension.gif",
     gifAlt: "Back extension exercise"
   },
   BandExternalRotation: {
@@ -226,11 +236,6 @@ const exerciseLibrary = {
     name: "Internal Rotation with Band",
     gif: "https://sportydoctor.com/wp-content/uploads/Banded-Shoulder-Internal-Rotation.gif",
     gifAlt: "Internal rotation with band exercise"
-  },
-  EmptyCanRaise: {
-    name: "Empty Can Raise",
-    gif: "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Lateral-Raise.gif",
-    gifAlt: "Empty can raise exercise"
   },
   LateralRaise: {
     name: "Lateral Raise",
@@ -257,6 +262,52 @@ const exerciseLibrary = {
     name: "Reverse Curl",
     gif: "https://fitliferegime.com/wp-content/uploads/2023/12/Dumbbell-Reverse-Curl.gif",
     gifAlt: "Reverse curl"
+  },
+  // Hip/glute-specific exercises referenced elsewhere
+  MonsterWalk: {
+    name: "Monster Walk",
+    gif: "https://liftmanual.com/wp-content/uploads/2023/04/resistance-band-walk.gif",
+    gifAlt: "Monster walk with band"
+  },
+  Clamshell: {
+    name: "Clamshell",
+    gif: "https://liftmanual.com/wp-content/uploads/2023/04/side-lying-clam.gif",
+    gifAlt: "Clamshell exercise"
+  },
+  SideLyingLegRaise: {
+    name: "Side-Lying Leg Raise",
+    gif: "https://burnfit.io/wp-content/uploads/2023/11/LYING_HIP_ABD.gif",
+    gifAlt: "Side-lying leg raise exercise"
+  },
+  StandingHipAbduction: {
+    name: "Standing Hip Abduction",
+    gif: "https://newlife.com.cy/wp-content/uploads/2019/12/07911301-Standing-Hip-Abduction_Hips_360.gif",
+    gifAlt: "Standing hip abduction exercise"
+  },
+  SideStepWithBand: {
+    name: "Side Step with Band",
+    gif: "https://media1.popsugar-assets.com/files/thumbor/LktT6RrmLCKSt2k-hfS9GoqgxOo/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2017/06/05/958/n/1922729/07704bab05a6bd8b_68c447d0878f9f3a_Side-Step.xxxlarge/i/Side-Steps-Booty-Band.gif",
+    gifAlt: "Side step with resistance band"
+  },
+  StandingHipAdduction: {
+    name: "Standing Hip Adduction",
+    gif: "https://www.verywellfit.com/thmb/standing-hip-adduction-5b8b7e7e46e0fb0026f7f3a9.gif",
+    gifAlt: "Standing hip adduction exercise"
+  },
+  SideLyingHipAdduction: {
+    name: "Side-Lying Hip Adduction",
+    gif: "https://www.inspireusafoundation.org/file/2022/12/lying-side-hip-abduction.gif",
+    gifAlt: "Side-lying hip adduction exercise"
+  },
+  DiaphragmaticBreathing: {
+    name: "Diaphragmatic Breathing",
+    gif: "https://miro.medium.com/max/350/0*YTL3RKLBrXqiUtaJ.gif",
+    gifAlt: "Diaphragmatic breathing exercise"
+  },
+  BreathHold: {
+    name: "Breath Hold",
+    gif: "https://www.healyourselfyoga.com/wp-content/uploads/2020/02/img-box-breathing-1.gif",
+    gifAlt: "Breath hold exercise"
   },
 };
 
@@ -689,16 +740,7 @@ const muscles = {
     joint: "Shoulder",
     movement: "Abducts the shoulder.",
     exercises: [
-      {
-        name: "Empty Can Raise",
-        gif: "https://fitnessprogramer.com/wp-content/uploads/2021/02/Cable-Lateral-Raise.gif",
-        gifAlt: "Empty can raise exercise"
-      },
-      {
-        name: "Lateral Raise",
-        gif: "https://www.verywellfit.com/thmb/_xudt8-GlEWif3XwX6yLKwoRPAE=/900x0/filters:no_upscale():max_bytes(150000):strip_icc()/61-4588211-dumbell-Lateral-side-Raise-GIF-7858592bcda347a9adf46886c5106e73.gif",
-        gifAlt: "Lateral raise exercise"
-      }
+      exerciseLibrary.LateralRaise
     ]
   },
   infraspinatus_r2: {
@@ -795,11 +837,7 @@ const muscles = {
     joint: "Hip",
     movement: "Abducts and medially rotates the hip.",
     exercises: [
-        {
-          name: "Side-Lying Hip Abduction",
-          gif: "https://www.verywellfit.com/thmb/T9ah6G2Eaiph6n0HZQV5UiUGW4o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/104--Hip-AbductionGIF-0f7b74d948f849d78864da9605a3eaa8.gif",
-          gifAlt: "Side-lying hip abduction exercise"
-        },
+        exerciseLibrary.SideLyingHipAdduction,
         exerciseLibrary.MonsterWalk
     ]
   },
@@ -847,7 +885,7 @@ const muscles = {
     joint: "Hip",
     movement: "Adducts the hip.",
     exercises: [
-    exerciseLibrary.StandingHipAdduction,
+    exerciseLibrary.StandingHipAbduction,
     exerciseLibrary.SideLyingHipAdduction
     ]
   },
@@ -895,16 +933,8 @@ const muscles = {
     joint: "Neck (cervical spine)",
     movement: "Flexes, rotates, and laterally bends the neck.",
     exercises: [
-      {
-        name: "Neck Isometrics",
-        gif: "https://gymvisual.com/img/p/2/3/9/8/7/23987.gif",
-        gifAlt: "Neck isometric exercise"
-      },
-      {
-        name: "Neck Flexion Stretch",
-        gif: "https://liftmanual.com/wp-content/uploads/2023/04/forward-flexion-neck-stretch.gif",
-        gifAlt: "Neck flexion stretch exercise"
-      }
+        exerciseLibrary.NeckFlexionStretch,
+        exerciseLibrary.NeckIsometricStretch
     ]
   },
     multifidus: {
@@ -951,13 +981,11 @@ const muscles = {
       joint: "Thoracic cavity",
       movement: "Increases thoracic volume for inspiration.",
       exercises: [
-        { name: "Diaphragmatic Breathing", gif: "https://www.verywellhealth.com/thmb/0QwKJQwQwQwQwQwQwQwQwQwQwQw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/diaphragmatic-breathing-4588211-01-7858592bcda347a9adf46886c5106e73.gif", gifAlt: "Diaphragmatic breathing exercise" },
-        { name: "Breath Hold", gif: "", gifAlt: "Breath hold exercise" }
+        exerciseLibrary.DiaphragmaticBreathing,
+        exerciseLibrary.BreathHold
       ]
     },
 };
-// Centralized exercise definitions
-// ...existing code...
 
 // Utility: Collapsible sections
 function setupCollapsibles() {
